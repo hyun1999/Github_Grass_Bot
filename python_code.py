@@ -5,3 +5,4 @@ openai.api_key = "your-api-key-here"
 HISTORY_FILE = "chat_history.json"
 
 def load_history():
+    if os.path.exists(HISTORY_FILE):
