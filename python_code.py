@@ -10,3 +10,4 @@ def load_history():
             return json.load(f)
     return []
 
+def save_history(history):
