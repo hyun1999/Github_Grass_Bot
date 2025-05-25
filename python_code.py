@@ -11,3 +11,4 @@ def load_history():
     return []
 
 def save_history(history):
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
