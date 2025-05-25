@@ -13,3 +13,4 @@ def load_history():
 def save_history(history):
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, indent=4)
+
