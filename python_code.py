@@ -9,3 +9,4 @@ def load_history():
         with open(HISTORY_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
     return []
+
